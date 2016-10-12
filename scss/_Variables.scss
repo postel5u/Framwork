@@ -1,0 +1,159 @@
+/* VARIABLES*/
+/* DefaultButton*/
+$BackGroundColorDefaultButton : blue !default;
+$BorderColorDefaultButton : blue !default;
+$ColorDefaultButton : white !default;
+$BackGroundColorDefaultActiveButton : red !default;
+$BorderColorDefaultActiveButton : red !default;
+
+/*SmallButton*/
+$BackGroundColorSmallButton : blue !default;
+$BorderColorSmallButton : blue !default;
+$ColorSmallButton : white !default;
+$BackGroundColorSmallActiveButton : red !default;
+$BorderColorSmallActiveButton : red !default;
+
+/*LargeButton*/
+$BackGroundColorLargeButton : blue !default;
+$BorderColorLargeButton : blue !default;
+$ColorLargeButton : white !default;
+$BackGroundColorLargeActiveButton : red !default;
+$BorderColorLargeActiveButton : red !default;
+
+/*ButtonColor1*/
+$BackGroundColorButtonColor1 : orangered !default;
+$BorderColorButtonColor1 : orangered !default;
+$BackGroundColorButtonColor1Active : green !default;
+$BorderColorButtonColor1Active : green !default;
+
+/*ButtonColor2*/
+$BackGroundColorButtonColor2 : purple !default;
+$BorderColorButtonColor2 : purple !default;
+$BackGroundColorButtonColor2Active : aqua !default;
+$BorderColorButtonColor2Active : aqua !default;
+
+
+/*Typo*/
+$ColorTitles : black !default;
+$FontFamilyTitles : Arial !default;
+$FontWeightTitles : bold !default;
+$FontSizeH1 : xx-large !default;
+$FontSizeH2 : x-large !default;
+$FontSizeH3 : large !default;
+$FontSizeH4 : medium !default;
+$FontSizeH5 : small !default;
+$FontSizeH6 : x-small !default;
+
+$ColorSmall : gray !default;
+$FontSizeSmall : 60% !default;
+
+$ColorSub : gray !default;
+$FontSizeSub : 60% !default;
+
+$MarginBotBody : 50px !default;
+$ColorBody : red !default;
+
+$FontWeightMark : bold !default;
+$BackGroundColorMark : gold !default;
+
+$TextDecorationDel : line-through !default;
+
+$BackGroundColorIns : gold !default;
+
+$TextDecorationU : underline !default;
+
+$FontWeightStrong : bold !default;
+
+$FontStyleEm : italic !default;
+
+$FontStyleBlockquote : italic !default;
+$FontWeightBlockQuote : 100 !default;
+
+$FontFamilyCode : Courier, monospace !default;
+
+$BorderTable : 1px solid black !default;
+$BorderCollapseTableDefault : collapse !default;
+$FontWeightThDefault : bold !default;
+$PaddingThDefault : 2px !default;
+$PaddingTdDefault : 2px !default;
+
+$BackGroundColorTrAlternate : #ffff99 !default;
+
+$BorderTableFullBorder : 2px solid black !default;
+
+$BackGroundColorTrLineBorder : aqua !default;
+
+/*Warning*/
+$PaddingAlertInfo :15px !default;
+$BackGroundColorAlertInfo : gray !default;
+$BorderColorAlertInfo : gray !default;
+$BorderRadiusAlertInfo : 20px !default;
+$ColorAlertInfo : black !default;
+
+$PaddingAlertError : 15px !default;
+$BackGroundColorAlertError : red  !default;
+$BorderColorAlertError : red  !default;
+$BorderRadiusAlertError : 20px !default;
+$ColorAlertError : white !default;
+
+$PaddingAlertSucces : 15px !default;
+$BackGroundColorAlertSucces : green !default;
+$BorderColorAlertSucces : green !default;
+$BorderRadiusAlertSucces : 20px !default;
+$ColorAlertSucces : black !default;
+
+/*Component*/
+  /*Jumbotron*/
+$BackGroundColorJumbotron : gray   !default;
+$ColorJumbotron : black !default;
+$FontSizeTitlesJumbotron : xx-large !default;
+$FontSizeTextJumbotron : 1em !default;
+$BackGroundColorButtonJumbotron : blue !default;
+$BorderColorButtonJumbotron : blue !default;
+$ColorButtonJumbotron : white !default;
+$BackGroundColorButtonJumbotronActive : red !default;
+$BorderColorButtonJumbotronActive : red !default;
+$PaddingJumbotron : 15px !default;
+$DiplayDivJumbotron : inline-block !default;
+
+  /*Nav*/
+$BackGroundColorNavLeft : gray !default;
+$BorderNavLeft : 1px solid Black !default;
+$FloatNavLeft : left !default;
+$Min-widthNavLeft : 10% !default;
+$BorderLinkNavLeft: 1px solid black !default;
+$BorderRadiusLinkNavLeft : 20px !default;
+$ColorLinkNavLeft : white !default;
+$WidthLinkNavLeft : 100% !default;
+$DiplayLinkNavLeft : block !default;
+$TextAlignLinkNavLeft : center !default;
+$PositionNavLeft : fixed !default;
+$TopNavLeft : 10px !default;
+$LeftNavLeft : 10px !default;
+
+$BackGroundColorNavRight : gray !default;
+$BorderNavRight : 1px solid Black !default;
+$FloatNavRight : left !default;
+$Min-widthNavRight : 10% !default;
+$BorderLinkNavRight: 1px solid black !default;
+$BorderRadiusLinkNavRight : 20px !default;
+$ColorLinkNavRight : white !default;
+$WidthLinkNavRight : 100% !default;
+$DiplayLinkNavRight : block !default;
+$TextAlignLinkNavRight : center !default;
+$PositionNavRight : fixed !default;
+$TopNavRight : 10px !default;
+$RightNavRight : 10px !default;
+
+
+$BackGroundColorNavHorizontal : gray !default;
+$BorderNavHorizontal : 1px solid Black !default;
+$WidthNavHorizontal : 80% !default;
+$DisplayNavHorizontal : block !default;
+$MarginNavHorizontal : auto !default;
+$TextAlignNavHorizontal : center !default;
+$BorderLinkNavHorizontal: 1px solid black !default;
+$BorderRadiusLinkNavHorizontal : 20px !default;
+$ColorLinkNavHorizontal : white !default;
+$TextAlignLinkNavHorizontal : center !default;
+$MarginLeftLinkNavHorizontal : 3% !default;

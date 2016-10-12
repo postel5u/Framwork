@@ -1,0 +1,129 @@
+
+//$BackGroundColorJumbotron : gray;
+//$ColorJumbotron : black;
+//$FontSizeTitlesJumbotron : xx-large;
+//$FontSizeTextJumbotron : 1em;
+//$BackGroundColorButtonJumbotron : blue;
+//$BorderColorButtonJumbotron : blue;
+//$ColorButtonJumbotron : white;
+//$BackGroundColorButtonJumbotronActive : red;
+//$BorderColorButtonJumbotronActive : red;
+//$PaddingJumbotron : 15px;
+//$DiplayDivJumbotron : inline-block;
+.jumbotron{
+
+  background-color: $BackGroundColorJumbotron;
+  padding : $PaddingJumbotron;
+  display: $DiplayDivJumbotron;
+
+   h1{
+    font-size: $FontSizeTitlesJumbotron;
+    color: $ColorJumbotron;
+  }
+   p{
+    font-size: $FontSizeTextJumbotron;
+    color: $ColorJumbotron;
+  }
+
+}
+
+
+//$BackGroundColorNavLeft : gray;
+//$BorderNavLeft : 1px solid Black;
+//$FloatNavLeft : left;
+//$Min-widthNavLeft : 10%;
+//$BorderLinkNavLeft: 1px solid black;
+//$BorderRadiusLinkNavLeft : 20px;
+//$ColorLinkNavLeft : white;
+//$WidthLinkNavLeft : 100%;
+//$DiplayLinkNavLeft : block;
+//$TextAlignLinkNavLeft : center;
+//$PositionNavLeft : fixed;
+//$TopNavLeft : 10px;
+//$LeftNavLeft : 10px;
+
+//$BackGroundColorNavRight : gray;
+//$BorderNavRight : 1px solid Black;
+//$FloatNavRight : left;
+//$Min-widthNavRight : 10%;
+//$BorderLinkNavRight: 1px solid black;
+//$BorderRadiusLinkNavRight : 20px;
+//$ColorLinkNavRight : white;
+//$WidthLinkNavRight : 100%;
+//$DiplayLinkNavRight : block;
+//$TextAlignLinkNavRight : center;
+//$PositionNavRight : fixed;
+//$TopNavRight : 10px;
+//$RightNavRight : 10px;
+
+
+//$BackGroundColorNavHorizontal : gray;
+//$BorderNavHorizontal : 1px solid Black;
+//$WidthNavHorizontal : 80%;
+//$DisplayNavHorizontal : block;
+//$MarginNavHorizontal : auto;
+//$TextAlignNavHorizontal : center;
+//$BorderLinkNavHorizontal: 1px solid black;
+//$BorderRadiusLinkNavHorizontal : 20px;
+//$ColorLinkNavHorizontal : white;
+//$TextAlignLinkNavHorizontal : center;
+//$MarginLeftLinkNavHorizontal : 3%;
+
+.NavLeft{
+  background-color: $BackGroundColorNavLeft;
+  border : $BorderNavLeft;
+  float : $FloatNavLeft;
+  min-width:$Min-widthNavLeft;
+  position: $PositionNavLeft;
+  left : $LeftNavLeft;
+  top: $TopNavLeft;
+
+  a{
+    border : $BorderLinkNavLeft;
+    border-radius: $BorderRadiusLinkNavLeft;
+    color : $ColorLinkNavLeft;
+    width: $WidthLinkNavLeft ;
+    display: $DiplayLinkNavLeft;
+    text-align: $TextAlignLinkNavLeft;
+  }
+
+}
+
+.NavRight{
+  background-color: $BackGroundColorNavRight;
+  border : $BorderNavRight;
+  float : $FloatNavRight;
+  min-width:$Min-widthNavRight;
+  position: $PositionNavRight;
+  right : $RightNavRight;
+  top: $TopNavRight;
+
+  a{
+    border : $BorderLinkNavRight;
+    border-radius: $BorderRadiusLinkNavRight;
+    color : $ColorLinkNavRight;
+    width: $WidthLinkNavRight ;
+    display: $DiplayLinkNavRight;
+    text-align: $TextAlignLinkNavRight;
+  }
+}
+
+.NavHorizontal{
+
+  background-color: $BackGroundColorNavHorizontal;
+  border : $BorderNavHorizontal;
+  width:$WidthNavHorizontal;
+  display: $DisplayNavHorizontal;
+  margin: $MarginNavHorizontal;
+  text-align: $TextAlignNavHorizontal;
+
+  a{
+    border : $BorderLinkNavHorizontal;
+    border-radius: $BorderRadiusLinkNavHorizontal;
+    color : $ColorLinkNavHorizontal;
+    text-align: $TextAlignLinkNavHorizontal;
+    margin-left : $MarginLeftLinkNavHorizontal;
+  }
+
+
+}

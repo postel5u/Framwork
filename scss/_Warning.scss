@@ -1,0 +1,45 @@
+
+
+//$PaddingAlertInfo :15px;
+//$BackGroundColorAlertInfo : gray;
+//$BorderColorAlertInfo : gray;
+//$BorderRadiusAlertInfo : 20px;
+//$ColorAlertInfo : black;
+
+//$PaddingAlertError : 15px;
+//$BackGroundColorAlertError : red ;
+//$BorderColorAlertError : red ;
+//$BorderRadiusAlertError : 20px;
+//$ColorAlertError : white;
+
+//$PaddingAlertSucces : 15px;
+//$BackGroundColorAlertSucces : green;
+//$BorderColorAlertSucces : green;
+//$BorderRadiusAlertSucces : 20px;
+//$ColorAlertSucces : black;
+
+.AlertInfo {
+  padding : $PaddingAlertInfo;
+  border-color : $BorderColorAlertInfo;
+  background-color: $BackGroundColorAlertInfo;
+  border-radius: $BorderRadiusAlertInfo;
+  color : $ColorAlertInfo;
+
+}
+
+.AlertError {
+  padding : $PaddingAlertError;
+  border-color : $BorderColorAlertError;
+  background-color: $BackGroundColorAlertError;
+  border-radius: $BorderRadiusAlertError;
+  color : $ColorAlertError;
+
+}
+.AlertSucces {
+  padding : $PaddingAlertSucces;
+  border-color : $BackGroundColorAlertSucces;
+  background-color: $BackGroundColorAlertSucces;
+  border-radius: $BorderRadiusAlertSucces;
+  color : $ColorAlertSucces;
+
+}

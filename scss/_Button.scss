@@ -1,0 +1,137 @@
+/* VARIABLES*/
+      /* DefaultButton*/
+//$BackGroundColorDefaultButton : blue;
+//$BorderColorDefaultButton : blue;
+//$ColorDefaultButton : white;
+//$BackGroundColorDefaultActiveButton : red;
+//$BorderColorDefaultActiveButton : red;
+
+      /*SmallButton*/
+//$BackGroundColorSmallButton : blue;
+//$BorderColorSmallButton : blue;
+//$ColorSmallButton : white;
+//$BackGroundColorSmallActiveButton : red;
+//$BorderColorSmallActiveButton : red;
+
+      /*LargeButton*/
+//$BackGroundColorLargeButton : blue;
+//$BorderColorLargeButton : blue;
+//$ColorLargeButton : white;
+//$BackGroundColorLargeActiveButton : red;
+//$BorderColorLargeActiveButton : red;
+
+      /*ButtonColor1*/
+//$BackGroundColorButtonColor1 : orangered;
+//$BorderColorButtonColor1 : orangered;
+//$BackGroundColorButtonColor1Active : green;
+//$BorderColorButtonColor1Active : green;
+
+      /*ButtonColor2*/
+//$BackGroundColorButtonColor2 : purple;
+//$BorderColorButtonColor2 : purple;
+//$BackGroundColorButtonColor2Active : aqua;
+//$BorderColorButtonColor2Active : aqua;
+
+
+
+.ButtonDefault{
+  background-color: $BackGroundColorDefaultButton;
+  padding: 5px;
+  color : $ColorDefaultButton;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: $BorderColorDefaultButton;
+  width: 12em;
+  height: 4em;
+}
+.ButtonDefault:active{
+  background-color: $BackGroundColorDefaultActiveButton;
+  border-color: $BorderColorDefaultActiveButton;
+}
+.ButtonDefault:hover{
+  cursor:pointer;
+}
+
+.ButtonSmall{
+  background-color: $BackGroundColorSmallButton;
+  padding: 5px;
+  color : $ColorSmallButton;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: $BorderColorSmallButton;
+  width: 6em;
+  height: 2em;
+
+}
+.ButtonSmall:active{
+  background-color: $BackGroundColorSmallActiveButton;
+  border-color: $BorderColorSmallActiveButton;
+}
+.ButtonSmall:hover{
+  cursor:pointer;
+}
+
+.ButtonLarge{
+  background-color: $BackGroundColorLargeButton;
+  padding: 5px;
+  color : $ColorLargeButton;
+  font-weight: bold;
+  border-radius: 4px;
+  border-color: $BorderColorLargeButton;
+  width: 24em;
+  height: 8em;
+}
+.ButtonLarge:active{
+  background-color: $BackGroundColorLargeActiveButton;
+  border-color: $BorderColorLargeActiveButton;
+}
+.ButtonLarge:hover{
+  cursor:pointer;
+}
+
+
+.ButtonColor1{
+  background-color: $BackGroundColorButtonColor1;
+  border-color: $BorderColorButtonColor1;
+}
+.ButtonColor1:active{
+  background-color: $BackGroundColorButtonColor1Active;
+  border-color: $BorderColorButtonColor1Active;
+}
+.ButtonColor1:hover{
+  cursor:pointer;
+}
+
+.ButtonColor2{
+  background-color: $BackGroundColorButtonColor2;
+  border-color: $BorderColorButtonColor2;
+}
+.ButtonColor2:active{
+  background-color: $BackGroundColorButtonColor2Active;
+  border-color: $BorderColorButtonColor2Active;
+}
+.ButtonColor2:hover{
+  cursor:pointer;
+}
+
+
+.ButtonFlat{
+  border:none;
+  background-color: chocolate;
+  color:black;
+}
+
+.ButtonFullContainer{
+  width: 100%;
+}
+
+.ButtonFancy{
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
+  background: radial-gradient(red,purple);
+  border-bottom: 5px solid purple;
+  width: 12em;
+  height: 4em;
+}
+.ButtonFancy:active{
+  border-bottom: 1px solid purple;
+}

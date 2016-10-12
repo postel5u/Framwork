@@ -1,0 +1,194 @@
+
+
+/*********Début Exo2 **********/
+
+//$ColorTitles : black;
+//$FontFamilyTitles : Arial;
+//$FontWeightTitles : bold;
+//$FontSizeH1 : xx-large;
+//$FontSizeH2 : x-large;
+//$FontSizeH3 : large;
+//$FontSizeH4 : medium;
+//$FontSizeH5 : small;
+//$FontSizeH6 : x-small;
+
+//$ColorSmall : gray;
+//$FontSizeSmall : 60%;
+
+//$ColorSub : gray;
+//$FontSizeSub : 60%;
+
+//$MarginBotBody : 50px;
+//$ColorBody : red;
+
+//$FontWeightMark : bold;
+//$BackGroundColorMark : gold;
+
+//$TextDecorationDel : line-through;
+
+//$BackGroundColorIns : gold;
+
+//$TextDecorationU : underline;
+
+//$FontWeightStrong : bold;
+
+//$FontStyleEm : italic;
+
+//$FontStyleBlockquote : italic;
+//$FontWeightBlockQuote : 100;
+
+//$FontFamilyCode : Courier, monospace;
+
+//$BorderTable : 1px solid black;
+//$BorderCollapseTableDefault : collapse;
+//$FontWeightThDefault : bold;
+//$PaddingThDefault : 2px;
+//$PaddingTdDefault : 2px;
+
+//$BackGroundColorTrAlternate : #ffff99;
+
+//$BorderTableFullBorder : 2px solid black;
+
+//$BackGroundColorTrLineBorder : aqua;
+
+h1,h2,h3,h4,h5,h6{
+  color : $ColorTitles;
+  font-weight: $FontWeightTitles;
+  font-family: $FontFamilyTitles;
+}
+
+h1{
+  font-size: $FontSizeH1;
+}
+
+h2{
+  font-size: $FontSizeH2;
+}
+
+h3{
+  font-size: $FontSizeH3;
+}
+
+h4{
+  font-size: $FontSizeH4;
+}
+
+h5{
+  font-size: $FontSizeH5;
+}
+
+h6{
+  font-size: $FontSizeH6;
+}
+
+small{
+  color :$ColorSmall;
+  font-size: $FontSizeSmall;
+}
+
+.sub{
+  color : $ColorSub;
+  font-size: $FontSizeSub;
+}
+
+body p{
+  margin-bottom: $MarginBotBody;
+  color : $ColorBody;
+}
+
+mark{
+  font-weight: $FontWeightMark;
+  background-color: $BackGroundColorMark;
+}
+
+del{
+  text-decoration: $TextDecorationDel;
+}
+
+ins{
+  background-color: $BackGroundColorIns;
+}
+
+u{
+  text-decoration: $TextDecorationU;
+}
+
+strong{
+  font-weight: $FontWeightStrong;
+}
+
+em{
+  font-style: $FontStyleEm;
+}
+
+blockquote{
+  font-style: $FontStyleBlockquote;
+  font-weight: $FontWeightBlockQuote;
+}
+
+code{
+  font-family: $FontFamilyCode;
+}
+
+.sanspuce{
+  list-style-type: none;
+}
+
+.puceCarre{
+  list-style-type: square;
+}
+
+.textLeft{
+  text-align: left;
+}
+
+.textRight{
+  text-align: right;
+}
+
+.textCenter{
+  text-align: center;
+}
+.tetJustify{
+  text-align: justify;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.lowercase{
+  text-transform: lowercase;
+}
+
+table , th, td{
+    border : $BorderTable;
+}
+
+.tableDefault{
+  border-collapse: $BorderCollapseTableDefault;
+
+  th{
+    font-weight: $FontWeightThDefault;
+    padding: $PaddingThDefault;
+  }
+  td{
+    padding: $PaddingTdDefault;
+  }
+}
+
+.tableAlternate{
+  tr:nth-of-type(2n){
+    background-color: $BackGroundColorTrAlternate;
+  }
+}
+
+.tableFullBorder{
+  border: $BorderTableFullBorder;
+}
+
+.tableLineHover{
+  tr:hover{
+    background-color: $BackGroundColorTrLineBorder;
+  }
+}

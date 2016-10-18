@@ -69,6 +69,16 @@
 //$TextAlignLinkNavHorizontal : center;
 //$MarginLeftLinkNavHorizontal : 3%;
 
+//$BorderNavBar : 1px solid white;
+//$BackGroundColorNavBar :orange;
+//$AlignItemNavBar : center;
+//$ColorNavBar : white;
+//$BackGroundColorLiActive : lighten(gray,20);
+//$ColorLiActive : red;
+
+
+
+
 .NavLeft{
   background-color: $BackGroundColorNavLeft;
   border : $BorderNavLeft;
@@ -127,3 +137,112 @@
 
 
 }
+
+.NavBar {
+
+  & ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
+ & li{
+     width: 20em;
+     height: 2em;
+     background-color: $BackGroundColorNavBar;
+     border-right: $BorderNavBar;
+     display: flex;
+     justify-content: center;
+     align-items: $AlignItemNavBar;
+  }
+  & a{
+  text-decoration: none;
+  color: $ColorNavBar;
+  font-weight: bold;
+  }
+
+  li:hover{
+  background-color: lighten($BackGroundColorNavBar,15);
+  }
+
+
+
+}
+
+li.active{
+  background-color : $BackGroundColorLiActive;
+  a{
+    color : $ColorLiActive;
+  }
+
+}
+li.active:hover{
+  background-color: lighten($BackGroundColorLiActive  ,15);
+}
+li.disabled{
+  a{
+    pointer-events: none;
+  }
+}
+
+
+/*Largeur du div englobant*/
+/*#breadcrumb{width:500px;}*/
+
+.breadcrump{
+  list-style-type:none;
+  font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  margin:10px auto;
+  padding:10px;
+
+  li.first {
+    background:url(../img/first-left.png) 0 0 no-repeat;
+    height:33px;
+  }
+  li {
+    float:left;
+    background:url(../img/general-left.png) 0 0 no-repeat;
+    line-height:33px;
+    margin:5px -5px 0 0;
+    padding-left:13px;
+  }
+
+  li a, li span {
+    float:left;
+    background:url(../img/bg-gradient.jpg) 0 0 repeat-x;
+    height:33px;
+    margin:0;
+    padding:0 0 0 5px;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.02em;
+  }
+
+  li span.end {
+    float:left;
+    background:url(../img/general-right.png) 0 0 no-repeat;
+    width:15px;
+    height:33px;
+  }
+}
+
+
+.pagination{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  li {
+    display: inline;
+  }
+  a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+}
+

@@ -1,0 +1,24 @@
+//$numcols: 8;
+
+@mixin grid-col($cols, $numcols) {
+  box-sizing: border-box;
+  float: left;
+  width: percentage($cols/$numcols);
+  margin: 1%;
+}
+
+@mixin grid-offset($cols, $numcols) {
+  margin-left: percentage($cols/$numcols);
+}
+
+@for $cols from 1 to $numcols {
+  .span-#{$cols} {
+    @include grid-col($cols, $numcols);
+  }
+}
+
+@for $cols from 1 to $numcols {
+  .offset-#{$cols} {
+    @include grid-offset($cols, $numcols);
+  }
+}

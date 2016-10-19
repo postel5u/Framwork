@@ -345,4 +345,67 @@ li.disabled a {
     padding: 8px 16px;
     text-decoration: none; }
 
+.span-1 {
+  box-sizing: border-box;
+  float: left;
+  width: 12.5%;
+  margin: 1%; }
+
+.span-2 {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  margin: 1%; }
+
+.span-3 {
+  box-sizing: border-box;
+  float: left;
+  width: 37.5%;
+  margin: 1%; }
+
+.span-4 {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  margin: 1%; }
+
+.span-5 {
+  box-sizing: border-box;
+  float: left;
+  width: 62.5%;
+  margin: 1%; }
+
+.span-6 {
+  box-sizing: border-box;
+  float: left;
+  width: 75%;
+  margin: 1%; }
+
+.span-7 {
+  box-sizing: border-box;
+  float: left;
+  width: 87.5%;
+  margin: 1%; }
+
+.offset-1 {
+  margin-left: 12.5%; }
+
+.offset-2 {
+  margin-left: 25%; }
+
+.offset-3 {
+  margin-left: 37.5%; }
+
+.offset-4 {
+  margin-left: 50%; }
+
+.offset-5 {
+  margin-left: 62.5%; }
+
+.offset-6 {
+  margin-left: 75%; }
+
+.offset-7 {
+  margin-left: 87.5%; }
+
 /*# sourceMappingURL=Framework.css.map */

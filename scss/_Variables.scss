@@ -5,6 +5,8 @@ $BorderColorDefaultButton : blue !default;
 $ColorDefaultButton : white !default;
 $BackGroundColorDefaultActiveButton : red !default;
 $BorderColorDefaultActiveButton : red !default;
+$widthDefaultButton : 6em !default;
+$heightDefaultButton : 2em !default;
 
 /*SmallButton*/
 $BackGroundColorSmallButton : blue !default;
@@ -12,6 +14,8 @@ $BorderColorSmallButton : blue !default;
 $ColorSmallButton : white !default;
 $BackGroundColorSmallActiveButton : red !default;
 $BorderColorSmallActiveButton : red !default;
+$widthSmallButton : 6em !default;
+$heightSmallButton : 2em !default;
 
 /*LargeButton*/
 $BackGroundColorLargeButton : blue !default;
@@ -19,18 +23,10 @@ $BorderColorLargeButton : blue !default;
 $ColorLargeButton : white !default;
 $BackGroundColorLargeActiveButton : red !default;
 $BorderColorLargeActiveButton : red !default;
+$widthLargeButton : 24em !default;
+$heightLargeButton : 8em !default;
 
-/*ButtonColor1*/
-$BackGroundColorButtonColor1 : orangered !default;
-$BorderColorButtonColor1 : orangered !default;
-$BackGroundColorButtonColor1Active : green !default;
-$BorderColorButtonColor1Active : green !default;
-
-/*ButtonColor2*/
-$BackGroundColorButtonColor2 : purple !default;
-$BorderColorButtonColor2 : purple !default;
-$BackGroundColorButtonColor2Active : aqua !default;
-$BorderColorButtonColor2Active : aqua !default;
+$ListColor : blue, orange, red, green, purple, pink, black, yellow, brown, grey !default;
 
 
 /*Typo*/

@@ -19,31 +19,26 @@
 //$ColorLargeButton : white;
 //$BackGroundColorLargeActiveButton : red;
 //$BorderColorLargeActiveButton : red;
+//$widthLargeButton : 24em
+//$heigthLargeButton : 8em
 
-      /*ButtonColor1*/
-//$BackGroundColorButtonColor1 : orangered;
-//$BorderColorButtonColor1 : orangered;
-//$BackGroundColorButtonColor1Active : green;
-//$BorderColorButtonColor1Active : green;
+//$ListColor : blue, orange, red, green, purple, pink, black, yellow, brown, grey;
 
-      /*ButtonColor2*/
-//$BackGroundColorButtonColor2 : purple;
-//$BorderColorButtonColor2 : purple;
-//$BackGroundColorButtonColor2Active : aqua;
-//$BorderColorButtonColor2Active : aqua;
-
-
-
-.ButtonDefault{
-  background-color: $BackGroundColorDefaultButton;
+@mixin button($textColor, $backgroundColor, $borderColor) {
+  background-color: $backgroundColor;
+  color: $textColor;
   padding: 5px;
-  color : $ColorDefaultButton;
   font-weight: bold;
   border-radius: 4px;
-  border-color: $BorderColorDefaultButton;
-  width: 12em;
-  height: 4em;
+  border-color: $borderColor;
 }
+
+.ButtonDefault {
+  @include button($ColorDefaultButton, $BackGroundColorDefaultButton, $BorderColorDefaultButton);
+  width: $widthDefaultButton;
+  height: $heightDefaultButton;
+}
+
 .ButtonDefault:active{
   background-color: $BackGroundColorDefaultActiveButton;
   border-color: $BorderColorDefaultActiveButton;
@@ -52,17 +47,14 @@
   cursor:pointer;
 }
 
-.ButtonSmall{
-  background-color: $BackGroundColorSmallButton;
-  padding: 5px;
-  color : $ColorSmallButton;
-  font-weight: bold;
-  border-radius: 4px;
-  border-color: $BorderColorSmallButton;
-  width: 6em;
-  height: 2em;
 
+
+.ButtonSmall {
+  @include button($ColorSmallButton, $BackGroundColorSmallButton, $BorderColorSmallButton);
+  width: $widthSmallButton;
+  height: $heightSmallButton;
 }
+
 .ButtonSmall:active{
   background-color: $BackGroundColorSmallActiveButton;
   border-color: $BorderColorSmallActiveButton;
@@ -71,16 +63,15 @@
   cursor:pointer;
 }
 
-.ButtonLarge{
-  background-color: $BackGroundColorLargeButton;
-  padding: 5px;
-  color : $ColorLargeButton;
-  font-weight: bold;
-  border-radius: 4px;
-  border-color: $BorderColorLargeButton;
-  width: 24em;
-  height: 8em;
+
+
+
+.ButtonLarge {
+  @include button($ColorLargeButton, $BackGroundColorLargeButton, $BorderColorLargeButton);
+  width: $widthLargeButton;
+  height: $heightLargeButton;
 }
+
 .ButtonLarge:active{
   background-color: $BackGroundColorLargeActiveButton;
   border-color: $BorderColorLargeActiveButton;
@@ -90,28 +81,21 @@
 }
 
 
-.ButtonColor1{
-  background-color: $BackGroundColorButtonColor1;
-  border-color: $BorderColorButtonColor1;
-}
-.ButtonColor1:active{
-  background-color: $BackGroundColorButtonColor1Active;
-  border-color: $BorderColorButtonColor1Active;
-}
-.ButtonColor1:hover{
-  cursor:pointer;
-}
 
-.ButtonColor2{
-  background-color: $BackGroundColorButtonColor2;
-  border-color: $BorderColorButtonColor2;
-}
-.ButtonColor2:active{
-  background-color: $BackGroundColorButtonColor2Active;
-  border-color: $BorderColorButtonColor2Active;
-}
-.ButtonColor2:hover{
-  cursor:pointer;
+
+
+@each $color in $ListColor{
+  .Button-#{$color} {
+    @include button(white, #{$color}, #{$color});
+  }
+
+  .Button-#{$color}:active{
+    background-color: darken($color, 10%);
+    border-color: darken($color, 10%);
+  }
+  .ButtonLarge:hover{
+    cursor:pointer;
+  }
 }
 
 
